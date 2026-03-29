@@ -1,5 +1,11 @@
 # @cbnsndwch/react-tracking
 
+## 0.1.5
+
+### Patch Changes
+
+- [`b3a5c18`](https://github.com/cbnsndwch/react-tracking/commit/b3a5c188f7dc19d7705e2e8a3bc0edc0cba54173) Thanks [@cbnsndwch](https://github.com/cbnsndwch)! - restore registry-url
+
 ## 0.1.4
 
 ### Patch Changes
