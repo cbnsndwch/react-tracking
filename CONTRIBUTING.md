@@ -1,23 +1,27 @@
 # Contributing
 
-First, thank you for contributing! 🎉
+Thank you for your interest in contributing!
 
 ## Local Development
 
-The local development workflow is fairly straightfowrad:
+1. Fork the repo and clone your fork locally
+2. `pnpm install`
+3. `pnpm run test:watch` — runs tests in watch mode
 
-1. Fork the repo and then git clone your fork locally (be sure to work on a new branch, not on your `master` branch)
-1. `npm install`
-1. `npm run test:watch` this will run the tests in watch mode
+## Scripts
+
+| Command | Description |
+| --- | --- |
+| `pnpm run build` | Build the library to `dist/` |
+| `pnpm run dev` | Build in watch mode |
+| `pnpm run test` | Run tests once |
+| `pnpm run test:watch` | Run tests in watch mode |
+| `pnpm run lint` | Lint with oxlint |
+| `pnpm run format` | Format with oxfmt |
 
 ## Testing against your own app
 
-If you'd like to test out a local version of `react-tracking` in an app you're using it in, you can:
-
-1. Add `react-tracking` to your project (`npm i react-tracking`)
-1. `npm install` in your local checkout of react-tracking
-1. `npm link` in react-tracking
-1. `npm link react-tracking` in the project you want to use it in
-1. `npm run build:watch` in react-tracking to run the watcher to get updates as you develop
-
-Then you'll be pointing at the local checkout of react-tracking to test your changes from within your app.
+1. `pnpm install` in your local checkout of this repo
+2. `pnpm link --global` in this repo
+3. `pnpm link --global @cbnsndwch/react-tracking` in your app
+4. `pnpm run dev` in this repo to rebuild on changes
