@@ -1,5 +1,11 @@
 # @cbnsndwch/react-tracking
 
+## 0.1.1
+
+### Patch Changes
+
+- [`c0dd723`](https://github.com/cbnsndwch/react-tracking/commit/c0dd72379d393137042f6badb677939286cf15e8) Thanks [@cbnsndwch](https://github.com/cbnsndwch)! - Test trusted publishing from GitHub Actions
+
 ## 0.1.0
 
 ### Minor Changes
