@@ -1,6 +1,6 @@
 {
     "name": "@cbnsndwch/react-tracking",
-    "version": "0.1.0",
+    "version": "0.0.0",
     "description": "Declarative tracking for React apps. Based on nytimes/react-tracking",
     "keywords": [
         "declarative",
