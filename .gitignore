@@ -37,3 +37,4 @@ coverage
 # Build info
 tsconfig.tsbuildinfo
 
+/fail_log.txt
