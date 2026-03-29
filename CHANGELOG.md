@@ -1,5 +1,11 @@
 # @cbnsndwch/react-tracking
 
+## 0.1.3
+
+### Patch Changes
+
+- [`6ebb331`](https://github.com/cbnsndwch/react-tracking/commit/6ebb331edd254d436f41cbdefdd6a746269420db) Thanks [@cbnsndwch](https://github.com/cbnsndwch)! - Update github action versions to trigger publish
+
 ## 0.1.2
 
 ### Patch Changes
