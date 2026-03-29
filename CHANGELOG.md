@@ -1,5 +1,11 @@
 # @cbnsndwch/react-tracking
 
+## 0.1.4
+
+### Patch Changes
+
+- [`2d35bb8`](https://github.com/cbnsndwch/react-tracking/commit/2d35bb81b8700d51e4b03418ad93d60deeacb4c9) Thanks [@cbnsndwch](https://github.com/cbnsndwch)! - fix oidc configuration
+
 ## 0.1.3
 
 ### Patch Changes
