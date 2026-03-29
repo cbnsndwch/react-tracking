@@ -28,11 +28,11 @@ Both `track()` and `useTracking()` accept two arguments: `trackingData` and `opt
 
 - `trackingData` — the data to be tracked (or a function returning that data)
 - `options` — an optional object with the following properties:
-  - `dispatch` — a function to use instead of the default dispatch behavior. See [Custom dispatch](#custom-optionsdispatch-for-tracking-data) below.
-  - `dispatchOnMount` — when `true`, dispatches tracking data when the component mounts. When a function, it is called with all contextual tracking data on initial render.
-  - `process` — a function defined once at some top-level component, used for selectively dispatching tracking events based on each component's tracking data. See [Top level process](#top-level-optionsprocess) below.
-  - `forwardRef` (HoC only) — when `true`, a ref on the wrapped component returns the underlying component instance. Default: `false`.
-  - `mergeOptions` — [deepmerge options](https://github.com/TehShrike/deepmerge#options).
+    - `dispatch` — a function to use instead of the default dispatch behavior. See [Custom dispatch](#custom-optionsdispatch-for-tracking-data) below.
+    - `dispatchOnMount` — when `true`, dispatches tracking data when the component mounts. When a function, it is called with all contextual tracking data on initial render.
+    - `process` — a function defined once at some top-level component, used for selectively dispatching tracking events based on each component's tracking data. See [Top level process](#top-level-optionsprocess) below.
+    - `forwardRef` (HoC only) — when `true`, a ref on the wrapped component returns the underlying component instance. Default: `false`.
+    - `mergeOptions` — [deepmerge options](https://github.com/TehShrike/deepmerge#options).
 
 ### `useTracking` Hook
 
@@ -198,7 +198,7 @@ Pass a function to compute tracking data from props at render time:
 import track from '@cbnsndwch/react-tracking';
 
 const FooPage = track(props => ({
-    page: props.isNew ? 'new' : 'existing',
+    page: props.isNew ? 'new' : 'existing'
 }))(({ tracking }) => (
     <button onClick={() => tracking.trackEvent({ action: 'click' })}>
         Click

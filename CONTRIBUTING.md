@@ -10,14 +10,14 @@ Thank you for your interest in contributing!
 
 ## Scripts
 
-| Command | Description |
-| --- | --- |
-| `pnpm run build` | Build the library to `dist/` |
-| `pnpm run dev` | Build in watch mode |
-| `pnpm run test` | Run tests once |
-| `pnpm run test:watch` | Run tests in watch mode |
-| `pnpm run lint` | Lint with oxlint |
-| `pnpm run format` | Format with oxfmt |
+| Command               | Description                  |
+| --------------------- | ---------------------------- |
+| `pnpm run build`      | Build the library to `dist/` |
+| `pnpm run dev`        | Build in watch mode          |
+| `pnpm run test`       | Run tests once               |
+| `pnpm run test:watch` | Run tests in watch mode      |
+| `pnpm run lint`       | Lint with oxlint             |
+| `pnpm run format`     | Format with oxfmt            |
 
 ## Testing against your own app
 
