@@ -1,5 +1,11 @@
 # @cbnsndwch/react-tracking
 
+## 0.1.6
+
+### Patch Changes
+
+- [`baa7328`](https://github.com/cbnsndwch/react-tracking/commit/baa7328254208f7456b70d574eb49204119fa528) Thanks [@cbnsndwch](https://github.com/cbnsndwch)! - upgrade to node 24 and latest npm for oidc publish bypass
+
 ## 0.1.5
 
 ### Patch Changes
