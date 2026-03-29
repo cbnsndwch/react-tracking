@@ -1,2 +1,12 @@
 src
 node_modules
+build
+setup
+.babelrc
+.eslintrc.js
+.prettierrc.json
+jest.config.js
+jest.setup.js
+.github
+.vscode
+.husky

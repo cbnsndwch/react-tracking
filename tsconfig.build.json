@@ -15,10 +15,9 @@
         "sourceMap": true,
         "outDir": "dist",
         "isolatedModules": true,
-        "resolveJsonModule": true,
-        "noUnusedLocals": false,
-        "noUnusedParameters": false
+        "verbatimModuleSyntax": false,
+        "resolveJsonModule": true
     },
-    "include": ["src", "vite.config.ts"],
-    "exclude": ["node_modules", "dist", "build"]
+    "include": ["src"],
+    "exclude": ["node_modules", "dist", "build", "src/__tests__"]
 }
