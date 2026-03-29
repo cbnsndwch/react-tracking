@@ -1,5 +1,11 @@
 # @cbnsndwch/react-tracking
 
+## 0.1.2
+
+### Patch Changes
+
+- [`4784f12`](https://github.com/cbnsndwch/react-tracking/commit/4784f12d316c720df15affe7915795c63d6ca822) Thanks [@cbnsndwch](https://github.com/cbnsndwch)! - NPMJS Trusted Publishing
+
 ## 0.1.1
 
 ### Patch Changes
